@@ -59,7 +59,7 @@
 	};
 	const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
 	const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${
-		props.sheet + "!A2:D40"
+		props.sheet + "!A2:L40"
 	}?key=${GOOGLE_API_KEY}`;
 
 	const { data, error, refresh } = await useFetch(url);
