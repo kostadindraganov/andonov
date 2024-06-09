@@ -7,17 +7,19 @@
 				class="flex justify-between items-center font-bg text-white my-2"
 			>
 				<div>
-					<p class="text-3xl mr-4 text-left leading-7">
-						{{ item[0] || "- - -" }}
+					<p class="text-4xl mr-2 text-left leading-7">
+						{{ item[0] || "-" }}
 					</p>
 				
 				</div>
 	
 				<div class="flex flex-col justify-center items-center">
 					<div v-for="indexes in 10" :key="indexes">
-						<p class="text-xl mr-4 text-left leading-7">
+						<span class="text-2xl text-left leading-7">
 						{{ item[indexes]  }}
-						</p>
+						</span>
+						<span v-if="item.length > 2 && item[indexes+1]" class=" mr-2">,</span>
+
 					</div>
 				</div>
 			

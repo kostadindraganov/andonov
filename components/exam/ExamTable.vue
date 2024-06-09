@@ -2,7 +2,7 @@
 	<div v-if="result.length > 0">
 
 
-		<div class="text-center md:my-12 sm:my-8">
+		<div class="text-center md:my-12 sm:my-10">
 				<p class="md:text-5xl sm:text-4xl section-title font-boldCyrillic">
 					ГРАФИК ИЗПИТИ
 				</p>
@@ -27,17 +27,21 @@
 		<div v-for="(item, index) in result" key="index">
 			<div
 			v-if="item.length > 1"
-				class="flex gap-2 justify-start items-start font-bg text-white my-2 mr-2"
+				class="flex gap-2 justify-start items-center font-bg text-white my-2 mr-2"
 			>
-				<div class="flex-none">
-					<p class="text-2xl text-left leading-7">
-						{{ item[0] || "-" }} / {{ item[1] || "-" }}
+				<div>
+					<p class="text-2xl text-center leading-7">
+						{{ item[0] || "-" }} 
+					</p>
+					<p class="text-2xl text-center leading-7">
+					{{ item[1] || "-" }}
 					</p>
 				</div>
-		
-				<div class="flex flex-row shrink-1 gap-2 flex-wrap justify-start items-center ml-5">
+				<Divider layout="vertical" />
+
+				<div class="flex flex-row gap-2 flex-wrap justify-start items-center m-2 mr-2">
 					<div v-for="indexes in 10" :key="indexes">
-						<span class="text-2xl text-left leading-7">
+						<span class="text-xl text-left leading-7">
 						{{ item[indexes+1]}} 
 						</span>
 						<span v-if="item.length > 2 && item[indexes+2]" class=" mr-2">,</span>
