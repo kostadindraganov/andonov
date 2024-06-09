@@ -3,23 +3,23 @@
 		<main class="p-5 my-5">
 			<div class="text-center md:my-12 sm:my-8">
 				<p class="md:text-5xl sm:text-4xl section-title font-boldCyrillic">
-					МЕНЮТО ДНЕС
+					ГРАФИК
 				</p>
 				<div class="text-dark-200 text-md my-4 px-3">
-					<span
-						>Доставката е от понеделник до петък, от 10 до 17.30. В рамките на
-						града под 15 лв. Доставка 3 лв.
-					</span>
+					
 				</div>
 			</div>
 
 			<div class="flex justify-center gap-5 flex-row flex-wrap my-5">
-				<SheetCard sheet="Супи" picture="soups.jpg" />
-				<SheetCard sheet="Аламинути" picture="alaminutes.jpg" />
-				<SheetCard sheet="Основни ястия" picture="mainfood.jpg" />
-				<SheetCard sheet="Салати" picture="salad.jpg" />
-				<SheetCard sheet="Скара" picture="grill.jpg" />
-				<SheetCard sheet="Десерти" picture="desert.jpg" />
+				<SheetCard sheet="Понеделник" picture="bg3.jpg" />
+				<SheetCard sheet="Врорник" picture="bg3.jpg" />
+				<SheetCard sheet="Сряда" picture="bg3.jpg" />
+				<SheetCard sheet="Четвъртък" picture="bg3.jpg" />
+				<SheetCard sheet="Петък" picture="bg3.jpg" />
+				<SheetCard sheet="Събота" picture="bg3.jpg" />
+			</div>
+			<div class="flex justify-center gap-5 flex-row flex-wrap my-5">
+				<SheetCard sheet="Понеделник" picture="bg3.jpg" />
 			</div>
 			<div class="flex justify-center items-center gap-3 mt-14 mb-8">
 				<p class="font-pacifico text-2xl text-orange-500 mr-2">Сподели</p>
@@ -36,11 +36,12 @@
 
 <script setup>
 	useHead({
-		title: "Гостилницата Пазарджик",
+		title: "АНДОНОВ И СИН АВТОМОБИЛНА ШКОЛА ЕООД"
+,
 		meta: [
 			{
 				name: "description",
-				content: "Разнообразие от готвена храна за вкъщи.",
+				content: "Шофьорски курсове Пазарджик АНДОНОВ И СИН АВТОМОБИЛНА ШКОЛА ЕООД има дългогодишен опит в обучението на водачи за управление на моторни превозни средства. Нашият екип ще ти предаде всички необходими знания и умения за твоята отлична подготовка. Ние ще те научим да бъдеш уверен и сигурен в своите способности при шофиране. При нас ще откриеш шофьорски курсове и обучение за следните категории: А1, A2, A, B, B+E, C, C+E, D",
 			},
 		],
 	});

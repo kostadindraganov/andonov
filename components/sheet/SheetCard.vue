@@ -1,17 +1,28 @@
 <template>
 	<Card
 		style="width: 25rem; overflow: hidden"
-		class="border-solid rounded-xl bg-stone bg-stoneBg bg-cover bg-no-repeat"
+		class="border-solid rounded-xl bg-stone bg-stoneBg bg-cover bg-no-repeat relative"
 	>
 		<template #header>
-			<div class="flex p justify-center items-center border-b-2 border-white">
+			<div class="flex justify-center items-center border-b-2 border-white">
+				<h2 class="text-6xl text-white font-markscript text-center absolute m-auto left-0 right-0">
+				{{ sheet }}
+			</h2>
 				<img alt="user header" :src="image" />
 			</div>
 		</template>
 		<template #title>
-			<h2 class="text-5xl text-white font-markscript text-center mb-4 mx-2">
+			<!-- <h2 class="text-5xl text-white font-markscript text-center absolute m-auto left-0 right-0 mb-4 mx-2">
 				{{ sheet }}
-			</h2>
+			</h2> -->
+			<div class="flex justify-between items-center font-bg text-white my-2  ">
+						<p class="text-xl mr-4 text-left leading-7">
+						Час
+					</p>
+					<p class="text-xl mr-4 text-left leading-7">
+						Курсист
+					</p>
+					</div>
 			<Divider />
 		</template>
 		<template #content>
@@ -48,7 +59,7 @@
 	};
 	const { SPREAD_SHEET_ID, GOOGLE_API_KEY } = getVars();
 	const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREAD_SHEET_ID}/values/${
-		props.sheet + "!A2:D20"
+		props.sheet + "!A2:D40"
 	}?key=${GOOGLE_API_KEY}`;
 
 	const { data, error, refresh } = await useFetch(url);

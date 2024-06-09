@@ -12,6 +12,7 @@ export default defineNuxtConfig({
 		"@nuxtjs/tailwindcss",
 		"nuxt-primevue",
 		"@stefanobartoletti/nuxt-social-share",
+		"nuxt3-date-fns"
 	],
 	primevue: {
 		cssLayerOrder: "tailwind-base, primevue, tailwind-utilities",

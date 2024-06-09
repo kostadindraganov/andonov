@@ -2,23 +2,25 @@
 	<div v-if="data.length > 1">
 		<div v-for="(item, index) in result" key="index">
 			<div
-				class="flex justify-between items-center font-markscript text-white my-2"
+			v-if="item.length > 1"
+			
+				class="flex justify-between items-center font-bg text-white my-2"
 			>
 				<div>
 					<p class="text-3xl mr-4 text-left leading-7">
 						{{ item[0] || "- - -" }}
 					</p>
+				
 				</div>
-
+	
 				<div class="flex flex-col justify-center items-center">
-					<span class="text-4xl"
-						>{{ item[2] || "0" }}<span class="text-sm">лв.</span></span
-					>
-					<Divider class="menu-divider" />
-					<span class="text-lg"
-						>{{ item[1] || "0" }}<span class="text-sm">гр.</span></span
-					>
+					<div v-for="indexes in 10" :key="indexes">
+						<p class="text-xl mr-4 text-left leading-7">
+						{{ item[indexes]  }}
+						</p>
+					</div>
 				</div>
+			
 			</div>
 			<Divider class="menu-divider" />
 		</div>
@@ -29,6 +31,7 @@
 <script setup>
 	import { reactive, computed } from "vue";
 
+
 	const props = defineProps({
 		result: {
 			type: Array,
@@ -37,6 +40,7 @@
 		},
 	});
 	const data = computed(() => props.result || []);
+
 </script>
 
 <style scoped>

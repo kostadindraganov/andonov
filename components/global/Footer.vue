@@ -3,13 +3,13 @@
 		<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 			<div class="md:flex md:justify-between items-center">
 				<div class="mb-6 md:mb-0">
-					<a href="https://gostilnicata.com/" class="flex items-center">
+					<!-- <a href="https://gostilnicata.com/" class="flex items-center">
 						<img
 							src="~/assets/img/logo.jpg"
 							class="sm:w-24 md:w-52 me-3"
 							alt="FlowBite Logo"
 						/>
-					</a>
+					</a> -->
 				</div>
 				<div
 					class="flex flex-wrap justify-center items-center gap-8 sm:gap-6 sm:grid-cols-3"
@@ -25,13 +25,13 @@
 						<ul class="text-white text-lg font-medium">
 							<li class="mb-4">
 								<p>гр.Пазарджик</p>
-								<p>бул. „Стефан Стамболов“ 13</p>
+								<p>УЛ. "ХРИСТО СМИРНЕНСКИ" № 26/4</p>
 							</li>
 							<li>
-								<p>+359 87 878 5695</p>
+								<p>0885 / 876 585</p>
 							</li>
 							<li>
-								<a href="tel:0878785695">
+								<a href="tel:0885876585">
 									<Button
 										rounded
 										class="my-5 border-none"
@@ -51,8 +51,8 @@
 			/>
 			<div class="sm:flex sm:items-center sm:justify-between">
 				<span class="text-lg font-bg text-white sm:text-center"
-					>Доставката е от понеделник до петък, от 10 до 17.30. В рамките на
-					града под 15 лв. Доставка 3 лв.
+					>
+					"АНДОНОВ И СИН АВТОМОБИЛНА ШКОЛА" ЕООД има дългогодишен опит в обучението на водачи за управление на моторни превозни средства. Нашият екип ще ти предаде всички необходими знания и умения за твоята отлична подготовка. Ние ще те научим да бъдеш уверен и сигурен в своите способности при шофиране. При нас ще откриеш шофьорски курсове и обучение за следните категории: А1, A2, A, B, B+E, C, C+E, D
 				</span>
 				<div class="flex mt-4 mr-4 sm:justify-center sm:mt-0">
 					<a

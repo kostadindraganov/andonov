@@ -771,7 +771,7 @@
     which "^3.0.1"
     ws "^8.17.0"
 
-"@nuxt/kit@3.11.2", "@nuxt/kit@^3.11.2", "@nuxt/kit@^3.5.3", "@nuxt/kit@^3.7.3":
+"@nuxt/kit@3.11.2", "@nuxt/kit@^3.11.2", "@nuxt/kit@^3.5.3", "@nuxt/kit@^3.7.3", "@nuxt/kit@^3.9.3":
   version "3.11.2"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.11.2.tgz"
   integrity sha512-yiYKP0ZWMW7T3TCmsv4H8+jEsB/nFriRAR8bKoSqSV9bkVYWPE36sf7JDux30dQ91jSlQG6LQkB3vCHYTS2cIg==
@@ -2557,6 +2557,11 @@ cuint@^0.2.2:
   version "0.2.2"
   resolved "https://registry.npmjs.org/cuint/-/cuint-0.2.2.tgz"
   integrity sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==
+
+date-fns@^3.2.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-3.6.0.tgz#f20ca4fe94f8b754951b24240676e8618c0206bf"
+  integrity sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==
 
 db0@^0.1.4:
   version "0.1.4"
@@ -4650,6 +4655,14 @@ nuxt-primevue@^0.1.0:
   integrity sha512-CYmKtM8mCTygpOcj9IfxYRChQUpuwEEoM1oDEg8ojxd6fBZmws0/ONxR7cyVxI2buSNy8yQoM3CMHbEaUGUm9w==
   dependencies:
     "@nuxt/kit" "^3.7.3"
+
+nuxt3-date-fns@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nuxt3-date-fns/-/nuxt3-date-fns-0.2.0.tgz#21a9ac2a73f038a55fa89b128e3382c30725cf89"
+  integrity sha512-V8MmGiVebeRBSc4rnQqAL0sMhxZez9GAdgFTOnezWjW385UF/kDz+ElTO/Vo4qI3zINbbYK5htb0LnUeEM+KxA==
+  dependencies:
+    "@nuxt/kit" "^3.9.3"
+    date-fns "^3.2.0"
 
 nuxt@^3.7.4:
   version "3.11.2"

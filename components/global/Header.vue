@@ -1,29 +1,29 @@
 <template>
 	<MegaMenu
 		:unstyled="false"
-		class="pt-2 px-5 surface-0 flex flex-row align-items-center justify-between"
+		class="pt-2 px-5 mt-5 surface-0 flex flex-row align-items-center justify-between"
 	>
 		<template #start class="mr-5">
-			<img
+			<!-- <img
 				src="~/assets/img/logo.jpg"
 				class="h-16 me-3 rounded-xl"
 				alt="Gostilnicata Logo"
-			/>
+			/> -->
 		</template>
 		<template #end>
-			<a href="tel:0878785695">
+			<a href="tel:0885876585">
 				<Button
 					rounded
 					class="order-btn"
 					type="button"
-					label="ПОРЪЧАЙ"
+					label="ОБАДИ СЕ"
 					icon="pi pi-phone"
 					severity="warning"
 				/>
 			</a>
 		</template>
 	</MegaMenu>
-	<img src="~/assets/img/bg-hero1.jpg" class="w-full me-3" alt="hero Logo" />
+	<img src="~/assets/img/bg11.jpeg" class="w-full me-3" alt="hero Logo" />
 	<!-- <Card class="hero-header bg-white border-transparent mx-5 border-none">
 		<template #title>
 			<MegaMenu
