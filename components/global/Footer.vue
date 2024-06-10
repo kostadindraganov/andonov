@@ -50,7 +50,7 @@
 				class="my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8"
 			/>
 			<div class="sm:flex sm:items-center sm:justify-between">
-				<span class="text-lg font-bg text-white sm:text-center"
+				<span class="text-md font-bg text-white text-center"
 					>
 					"АНДОНОВ И СИН АВТОМОБИЛНА ШКОЛА" ЕООД има дългогодишен опит в обучението на водачи за управление на моторни превозни средства. Нашият екип ще ти предаде всички необходими знания и умения за твоята отлична подготовка. Ние ще те научим да бъдеш уверен и сигурен в своите способности при шофиране. При нас ще откриеш шофьорски курсове и обучение за следните категории: А1, A2, A, B, B+E, C, C+E, D
 				</span>

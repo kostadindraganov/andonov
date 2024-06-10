@@ -6,7 +6,7 @@
 		<template #start class="mr-5">
 			<img
 				src="~/assets/img/logo.png"
-				class="h-16 me-3 rounded-xl"
+				class="h-12 me-3 rounded-xl"
 				alt="andonov Logo"
 			/>
 		</template>
