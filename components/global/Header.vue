@@ -4,11 +4,11 @@
 		class="pt-2 px-5 mt-5 surface-0 flex flex-row align-items-center justify-between"
 	>
 		<template #start class="mr-5">
-			<!-- <img
-				src="~/assets/img/logo.jpg"
+			<img
+				src="~/assets/img/logo.png"
 				class="h-16 me-3 rounded-xl"
-				alt="Gostilnicata Logo"
-			/> -->
+				alt="andonov Logo"
+			/>
 		</template>
 		<template #end>
 			<a href="tel:0885876585">
