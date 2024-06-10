@@ -1,5 +1,5 @@
 <template>
-	<MegaMenu
+	<!-- <MegaMenu
 		:unstyled="false"
 		class="pt-2 px-5 mt-5 surface-0 flex flex-row align-items-center justify-between"
 	>
@@ -22,7 +22,7 @@
 				/>
 			</a>
 		</template>
-	</MegaMenu>
+	</MegaMenu> -->
 	<img src="~/assets/img/bg11.jpg" class="w-full me-3" alt="hero Logo" />
 	<!-- <Card class="hero-header bg-white border-transparent mx-5 border-none">
 		<template #title>
