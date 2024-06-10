@@ -3,13 +3,13 @@
 		<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 			<div class="md:flex md:justify-between items-center">
 				<div class="mb-6 md:mb-0">
-					<!-- <a href="https://gostilnicata.com/" class="flex items-center">
+					<a href="https://andonov.netlify.app/" class="flex items-center rounded-3xl">
 						<img
-							src="~/assets/img/logo.jpg"
+							src="~/assets/img/logo.png"
 							class="sm:w-24 md:w-52 me-3"
 							alt="FlowBite Logo"
 						/>
-					</a> -->
+					</a>
 				</div>
 				<div
 					class="flex flex-wrap justify-center items-center gap-8 sm:gap-6 sm:grid-cols-3"
