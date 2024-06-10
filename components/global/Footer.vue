@@ -6,8 +6,8 @@
 					<a href="https://andonov.netlify.app/" class="flex items-center">
 						<img
 							src="~/assets/img/logo.png"
-							class="sm:w-24 md:w-52 me-3 rounded-3xl"
-							alt="FlowBite Logo"
+							class="sm:w-18 md:w-42 me-2 rounded-2xl"
+							alt="andonov Logo"
 						/>
 					</a>
 				</div>
@@ -52,7 +52,7 @@
 			<div class="sm:flex sm:items-center sm:justify-between">
 				<span class="text-md font-bg text-white text-center"
 					>
-					"АНДОНОВ И СИН АВТОМОБИЛНА ШКОЛА" ЕООД има дългогодишен опит в обучението на водачи за управление на моторни превозни средства. Нашият екип ще ти предаде всички необходими знания и умения за твоята отлична подготовка. Ние ще те научим да бъдеш уверен и сигурен в своите способности при шофиране. При нас ще откриеш шофьорски курсове и обучение за следните категории: А1, A2, A, B, B+E, C, C+E, D
+				При нас ще откриеш шофьорски курсове и обучение за следните категории: А1, A2, A, B, B+E, C, C+E, D
 				</span>
 				<!-- <div class="flex mt-4 mr-4 sm:justify-center sm:mt-0">
 					<a

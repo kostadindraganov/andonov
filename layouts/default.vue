@@ -2,7 +2,7 @@
 	<div class="flex flex-col h-screen">
 		<Header />
 		<slot />
-		<!-- <Footer /> -->
+		<Footer />
 		<ScrollTop />
 	</div>
 </template>

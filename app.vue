@@ -23,14 +23,7 @@
 				<SheetCard sheet="Събота" picture="bg3.jpg" />
 			</div>
 		
-			<div class="flex justify-center items-center gap-3 mt-14 mb-8">
-				<p class="font-pacifico text-xl text-orange-500 mr-2">Сподели</p>
-				<!-- Customization with props -->
-				<SocialShare network="facebook" :styled="true" :label="false" />
-				<SocialShare network="twitter" :styled="true" :label="false" />
-				<SocialShare network="whatsapp" :styled="true" :label="false" />
-				<SocialShare network="telegram" :styled="true" :label="false" />
-			</div>
+		
 		</main>
 	</NuxtLayout>
 </template>
