@@ -6,7 +6,7 @@
 					<a href="https://andonov.netlify.app/" class="flex items-center">
 						<img
 							src="~/assets/img/logo.png"
-							class="sm:w-18 md:w-42 me-2 rounded-2xl"
+							class="sm:w-28 md:w-40 me-2 rounded-2xl"
 							alt="andonov Logo"
 						/>
 					</a>
