@@ -23,7 +23,7 @@
 			</a>
 		</template>
 	</MegaMenu>
-	<img src="~/assets/img/bg11.jpeg" class="w-full me-3" alt="hero Logo" />
+	<img src="~/assets/img/bg11.jpg" class="w-full me-3" alt="hero Logo" />
 	<!-- <Card class="hero-header bg-white border-transparent mx-5 border-none">
 		<template #title>
 			<MegaMenu
