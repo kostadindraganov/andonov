@@ -3,18 +3,16 @@
 		<main class="p-5 my-5">
 			
 
-			<div class="flex justify-center gap-5 flex-row flex-wrap my-5 pb-5">
-				<ExamTable sheet="Изпити"  />
-			</div>
-		
+	
 
-			<div class="text-center md:my-12 sm:my-8">
-				<p class="md:text-5xl sm:text-4xl section-title font-boldCyrillic">
-					ГРАФИК КУРСОВЕ
-				</p>
+			<div class="flex justify-center gap-5 flex-row flex-wrap my-5">
+				<SheetCard sheet="Понеделник" picture="bg3.jpg" />
+				<SheetCard sheet="Врорник" picture="bg3.jpg" />
+				<SheetCard sheet="Сряда" picture="bg3.jpg" />
+				<SheetCard sheet="Четвъртък" picture="bg3.jpg" />
+				<SheetCard sheet="Петък" picture="bg3.jpg" />
+				<SheetCard sheet="Събота" picture="bg3.jpg" />
 			</div>
-
-		
 		
 			<div class="flex justify-center items-center gap-3 mt-14 mb-8">
 				<p class="font-pacifico text-xl text-orange-500 mr-2">Сподели</p>
