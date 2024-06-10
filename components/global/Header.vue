@@ -89,5 +89,6 @@
 		background-color: white;
 		border: none;
 		color: #f97316;
+		font-size: 12px;
 	}
 </style>
